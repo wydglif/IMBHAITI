@@ -1,0 +1,59 @@
+body{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+
+}
+
+.welcomePage{
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 800px;
+  height: 600px;
+  max-width: 2000px;
+  max-height: 2000px;
+  margin: auto;
+  background-image: url(haiti-flag-std.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+#bienvenue{
+    font-family: Snell Roundhand, cursive;
+    font-size: 70px;
+}
+
+#welcomeButton {
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #welcomeButton:hover {
+    background-color: black;
+    color: white;
+  }
+  h1{
+      text-align: center;
+  }
+  a{
+    text-decoration:none; 
+
+  }
